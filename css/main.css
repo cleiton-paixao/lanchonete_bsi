@@ -163,10 +163,13 @@ padding-top: 30px;
 }
 #sobre .engloba-box .box-sobre .engloba-foto .engloba-funcionarios {
     margin-left: 55px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 #sobre .engloba-box .box-sobre .engloba-foto .engloba-funcionarios .titulo {
     font-size: 30px;
+    border-bottom: 1px solid;
+    width: 95%;
+    padding-bottom: 15px;
 }
 #sobre .engloba-box .box-sobre .engloba-foto .box-foto {
     text-align: center;
