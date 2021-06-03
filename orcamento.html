@@ -24,6 +24,7 @@
         </style>
     </head>
 <body>
+    
     <header>
         <section id="menu">
             <div class="logo col-inline">
@@ -58,6 +59,11 @@
                     <div class="valor">
                         <span>R$ 15,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter">
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly="" type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
             <article class="box-secao-produtos col-inline col-x3">
@@ -72,6 +78,11 @@
                     <div class="valor">
                         <span>R$ 25,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter">
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly="" type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
             <article class="box-secao-produtos col-inline col-x3">
@@ -86,6 +97,11 @@
                     <div class="valor">
                         <span>R$ 35,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter">
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly="" type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
             <article class="box-secao-produtos col-inline col-x3">
@@ -100,6 +116,11 @@
                     <div class="valor">
                         <span>R$ 45,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter">
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly="" type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
             <article class="box-secao-produtos col-inline col-x3">
@@ -114,6 +135,11 @@
                     <div class="valor">
                         <span>R$ 55,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter">
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly="" type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
             <article class="box-secao-produtos col-inline col-x3">
@@ -128,16 +154,62 @@
                     <div class="valor">
                         <span>R$ 65,90</span>
                     </div><!-- fim .valor -->
+                    <div class="selecter" >
+                        <button class="minus">-</button>
+                        <input data-id="0" readonly type="text" class="total" value="0">
+                        <button class="plus">+</button>
+                    </div>
                 </div><!-- fim .content -->
             </article><!-- fim article -->
         </div><!-- fim .engloba-secao-exames -->
     </div><!-- fim .wrap -->
 </section>
+<div class="result_pedido">
+
+    <h2 class="page_header">Seu pedido</h2>
+
+    <div class="table-responsive">
+        <div class="thead"></div>
+        <table>
+            <tbody><tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unit.</th>
+                    <th>Subtotal</th>
+                </tr>
+            
+            </tbody><tbody id="invoice_products">
+                <tr>
+                    <td>Combo IV</td>
+                    <td>1</td>
+                    <td>R$&nbsp;45,90</td>
+                    <td>R$&nbsp;45,90</td>
+                </tr>
+                </tbody>
+            <tbody><tr>
+                <td colspan="4">
+                    <div class="total_label_container">
+                        <input type="text" id="cep" placeholder="Informe o seu CEP">
+                        <div class="total_label">
+                            <strong>Total: </strong> <span id="total_price">R$&nbsp;45,90</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" id="region_label" style="display:none;">
+                    
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
 <section id="footer" class="secao">
     <div class="wrap">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat impedit necessitatibus assumenda in cum consequatur animi unde fugiat incidunt sint! Pariatur accusamus ex, voluptates enim quia recusandae sit doloribus dolore nulla expedita unde nam itaque labore! Quidem eius aspernatur iure fuga eos illo cumque labore voluptas. Voluptates, reprehenderit facere autem exercitationem nihil libero eius deleniti fuga temporibus nostrum eligendi corrupti veniam delectus non molestias optio voluptatem beatae! Facere, quis similique reprehenderit qui nisi vel nam esse quam neque, obcaecati consequuntur omnis odit nesciunt nihil ex vero sequi quas, ducimus id pariatur! Sed nemo aperiam sint molestiae autem facere quas. Asperiores!</p>
     </div>
 </section>    
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
